@@ -1,0 +1,33 @@
+{
+  "name": "@tkdailey11/crapp-react",
+  "version": "1.0.0",
+  "description": "Utility to create a simple, bare-bones react app template",
+  "main": "bin/index.js",
+  "bin": {
+    "crapp-react": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkdailey11/crapp-react.git"
+  },
+  "keywords": [
+    "react",
+    "create",
+    "template",
+    "app"
+  ],
+  "author": "Tyler Dailey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkdailey11/crapp-react/issues"
+  },
+  "homepage": "https://github.com/tkdailey11/crapp-react#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "ninst": "^0.2.0",
+    "npm-programmatic": "0.0.12"
+  }
+}
